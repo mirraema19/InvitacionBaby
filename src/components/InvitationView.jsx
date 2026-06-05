@@ -7,7 +7,7 @@ import styles from './InvitationView.module.css'
 /* Placeholder de foto — reemplaza con la URL o import de tu imagen */
 const FOTO_PLACEHOLDER = null // Ejemplo: import foto from '../assets/foto-bebe.jpg'
 
-const WHATSAPP_NUM = '9587761872'
+const WHATSAPP_NUM = '9617761872'
 const WHATSAPP_MSG = encodeURIComponent('¡Confirmo mi asistencia! 🤍🪼')
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUM}?text=${WHATSAPP_MSG}`
 
