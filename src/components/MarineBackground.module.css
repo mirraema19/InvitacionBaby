@@ -1,0 +1,29 @@
+.bg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background: #80d8ff;
+  box-shadow: 0 0 4px 1px rgba(128, 216, 255, 0.8);
+}
+
+.bubble {
+  position: absolute;
+  bottom: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.6), rgba(79, 195, 247, 0.15));
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.marineIcon {
+  position: absolute;
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  filter: drop-shadow(0 0 6px rgba(79, 195, 247, 0.5));
+  user-select: none;
+}

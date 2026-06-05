@@ -1,0 +1,33 @@
+.card {
+  background: rgba(17, 40, 79, 0.5);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(79, 195, 247, 0.22);
+  border-radius: 1.25rem;
+  padding: 1.4rem 1.6rem;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 0 6px rgba(79,195,247,0.5));
+}
+
+.title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--azul-celeste);
+  margin-bottom: 0.4rem;
+}
+
+.body {
+  color: var(--perla);
+  font-size: clamp(0.88rem, 3vw, 1rem);
+  line-height: 1.6;
+}

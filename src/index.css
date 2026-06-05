@@ -1,0 +1,52 @@
+/* ── Variables de paleta marina ── */
+:root {
+  --azul-profundo: #0a1a3f;
+  --azul-marino: #11284f;
+  --azul-oceano: #1b4a8a;
+  --azul-celeste: #4fc3f7;
+  --azul-claro: #80d8ff;
+  --blanco: #ffffff;
+  --perla: #f4f1ea;
+  --beige: #e8dcc4;
+  --turquesa: #26c6da;
+
+  --fuente-script: 'Great Vibes', cursive;
+  --fuente-cuerpo: 'Quicksand', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--fuente-cuerpo);
+  background: linear-gradient(180deg, var(--azul-profundo) 0%, var(--azul-marino) 50%, var(--azul-oceano) 100%);
+  background-attachment: fixed;
+  color: var(--blanco);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: var(--fuente-cuerpo);
+}
+
+img {
+  max-width: 100%;
+}

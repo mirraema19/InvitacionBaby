@@ -1,0 +1,63 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 280px;
+  }
+}
+
+.bloque {
+  background: rgba(17, 40, 79, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(79, 195, 247, 0.3);
+  border-radius: 1rem;
+  padding: 0.9rem 0.5rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3), inset 0 0 20px rgba(79,195,247,0.05);
+  /* Todos los bloques ocupan exactamente la misma columna del grid */
+}
+
+.numero {
+  font-size: clamp(1.6rem, 6vw, 2.4rem);
+  font-weight: 700;
+  color: var(--azul-celeste);
+  line-height: 1;
+  height: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.label {
+  font-size: clamp(0.5rem, 1.8vw, 0.6rem);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: rgba(244, 241, 234, 0.6);
+  margin-top: 0.4rem;
+  white-space: nowrap;
+}
+
+/* Los separadores se ocultan — el grid ya da la estructura visual */
+.sep {
+  display: none;
+}
+
+.granDia {
+  font-family: var(--fuente-script);
+  font-size: clamp(1.8rem, 6vw, 2.5rem);
+  color: var(--azul-celeste);
+  text-align: center;
+  filter: drop-shadow(0 0 12px rgba(79,195,247,0.6));
+}
