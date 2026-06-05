@@ -20,19 +20,26 @@
   padding: 0;
 }
 
-html, body {
+html {
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;
+  /* El color de fondo en html cubre cualquier espacio vacío al hacer overscroll */
+  background-color: var(--azul-oceano);
 }
 
 body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
   font-family: var(--fuente-cuerpo);
   background: linear-gradient(180deg, var(--azul-profundo) 0%, var(--azul-marino) 50%, var(--azul-oceano) 100%);
   background-attachment: fixed;
   color: var(--blanco);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Evita el rebote blanco en iOS/Android al hacer overscroll */
+  overscroll-behavior: none;
 }
 
 #root {
