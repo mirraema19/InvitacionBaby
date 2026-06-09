@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import styles from './Countdown.module.css'
 
 // Fecha del evento: domingo 4 de julio de 2026 a las 6:00 PM
-const FECHA_EVENTO = new Date('2026-07-04T18:00:00')
+const FECHA_EVENTO = new Date('2026-07-05T18:00:00')
 
 function calcularTiempo() {
   const ahora = Date.now()

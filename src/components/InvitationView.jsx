@@ -49,7 +49,7 @@ export default function InvitationView({ musicaActiva, onToggleMusica }) {
 
           <p className={styles.heroSub}>Acompáñanos a celebrar la llegada de</p>
 
-          <h2 className={styles.heroNombre}>Cristo Kendrik</h2>
+          <h2 className={styles.heroNombre}>Cristo Kendrick</h2>
 
           {/* Foto circular con anillo animado — PLACEHOLDER */}
           <div className={styles.fotoWrapper}>
@@ -94,14 +94,14 @@ export default function InvitationView({ musicaActiva, onToggleMusica }) {
           </motion.div>
           <div className={styles.grid}>
             <InfoCard icon="📅" title="Fecha" delay={0}>
-              Domingo, 4 de Julio del 2026
+              Domingo, 5 de Julio del 2026
             </InfoCard>
             <InfoCard icon="🕕" title="Horario" delay={0.1}>
               6:00 PM a 8:00 PM
             </InfoCard>
             <InfoCard icon="📍" title="Lugar" delay={0.2}>
               <p>Calle Bahía de la India</p>
-              <p>Manzana 11, Lote 6</p>
+              <p>Manzana 11, Lote 10</p>
               <p style={{ fontSize: '0.85em', opacity: 0.75 }}>(pasando el kínder)</p>
               <p style={{ fontWeight: 600, marginTop: '0.3rem' }}>Cali Hux</p>
             </InfoCard>
@@ -202,7 +202,7 @@ export default function InvitationView({ musicaActiva, onToggleMusica }) {
         <footer className={styles.footer}>
           <WavesAnimadas />
           <p className={styles.footerCredito}>
-            🪼 Baby Shower · Cristo Kendrik · 4 de Julio 2026 🤍
+            🪼 Baby Shower · Cristo Kendrick · 4 de Julio 2026 🤍
           </p>
         </footer>
       </div>

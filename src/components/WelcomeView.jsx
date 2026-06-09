@@ -73,7 +73,7 @@ export default function WelcomeView({ onVerInvitacion }) {
 
             {/* Nombre */}
             <motion.h1 className={styles.nombre} variants={item}>
-              Cristo Kendrik
+              Cristo Kendrick
             </motion.h1>
 
             <motion.p className={styles.evento} variants={item}>
